@@ -87,7 +87,7 @@ github "airbnb/AloeStackView" "v1.2.0"
 
 ###### **Configurando o AppDelegate**
 
-```python
+```swift
 import UIKit
 import ContaStoneSDK
 
@@ -117,7 +117,7 @@ extension AppDelegate: ContaStoneDelegate {
 
 ###### **Autenticação**
 
-```python
+```swift
 import UIKit
 import ContaStoneSDK
 
@@ -134,7 +134,7 @@ class ViewController: UIViewController {
 
 ###### **Logout**
 
-```python
+```swift
 import UIKit
 import ContaStoneSDK
 
@@ -147,7 +147,7 @@ class ViewController: UIViewController {
 <!---
 ##### **Aprovador**
 
-```python
+```swift
 	var approverCoordinator: ApproverCoordinator?
 
 	func showApprover() {
@@ -163,7 +163,7 @@ class ViewController: UIViewController {
 
 ###### **Requisições**
 
-```python
+```swift
 class ViewController: UIViewController {
 	func fetchBalance() {
 	   let id = ContaStone.currentAcount.id
